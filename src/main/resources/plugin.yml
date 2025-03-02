@@ -1,0 +1,10 @@
+name: RealMinePAPI
+version: '${project.version}'
+main: ru.meinych15.realminepapi.RealMinePAPI
+api-version: '1.16'
+depend: [PlaceholderAPI]
+commands:
+  rmpapi:
+    description: RealMinePAPI commands
+    usage: /rmpapi reload
+    permission: rmpapi.reload
