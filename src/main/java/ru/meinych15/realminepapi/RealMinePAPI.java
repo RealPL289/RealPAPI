@@ -151,7 +151,7 @@ public class RealMinePAPI extends JavaPlugin {
 
             if (value.isEmpty() || value.equals(placeholder)) {
                 return plugin.colorize(plugin.getConfig()
-                        .getString("placeholder_messages." + identifier, "&7нет"));
+                        .getString("placeholder_messages." + identifier));
             }
             return plugin.colorize(value);
         }
