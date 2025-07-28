@@ -1,8 +1,8 @@
 placeholder_messages:
-  "%luckperms_suffix%": "&7нет" #используем %rmpapi_luckperms_suffix%
-chat: #в конфиге чата перед текстом нужно поставить %rmpapi_chat%
+  "luckperms_suffix": "&7нет" #используем %rpapi_luckperms_suffix%
+chat: #в конфиге чата перед текстом нужно поставить %rpapi_chat%
   admin: "&c&l"
   moder: "&9&l"
 messages:
-  reload_success: "&aКонфигурация плагина RealMinePAPI перезагружена."
+  reload_success: "&aКонфигурация плагина RealPAPI перезагружена."
   no_permission: "&cУ вас нет прав для выполнения этой команды."
